@@ -1,0 +1,322 @@
+.portfolio-section{
+    background-color: black;
+}
+
+.portfolio-section_title.ui.text.size-textlg {
+    color: white;
+    margin-left: 30px;
+}
+
+
+.desktop-one {
+    gap: 82px;
+    background-color: #D9D9D9;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1050px) {
+    .desktop-one {
+        gap: 61px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .desktop-one {
+        gap: 41px;
+    }
+}
+
+.columnlancespub {
+    gap: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 550px) {
+        gap: 31px;
+    }
+}
+
+.row {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: black;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-section {
+    display: flex;
+    @media only screen and (max-width: 1050px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.profile-section_content {
+    margin-left: 30px;
+    background-color: #FFFFFF;
+    width: 89%;
+    padding: 28px;
+    border-radius: var(--radius-xs);
+    @media only screen and (max-width: 550px) {
+        padding: 20px;
+    }
+}
+
+.profile-section_content-row {
+    margin-bottom: 12px;
+    gap: 50px;
+    display: flex;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+    }
+}
+
+.profile-section_image {
+    height: 354px;
+    align-self: center;
+    width: 20%;
+    object-fit: contain;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.profile-section_text-block {
+    gap: 22px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+        align-self: stretch;
+    }
+}
+
+.profile-section_description {
+    width: 100%;
+    line-height: 31px;
+}
+
+.cat-section {
+    background-color: #FFFFFF;
+    border-radius: var(--radius-xs);
+    height: 640px;
+    width: 94%;
+    position: relative;
+}
+
+.cat-section_title-row {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    height: max-content;
+    padding: 34px 72px 34px 56px;
+    @media only screen and (max-width: 1050px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding: 20px;
+    }
+}
+
+.cat-section_title {
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-bottom: 412px;
+}
+
+.cat-section_image {
+    height: 542px;
+    width: 70%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    margin: auto;
+}
+
+.cat-section_description {
+    width: 69%;
+    line-height: 45px;
+    position: absolute;
+    bottom: 5%;
+    right: 8%;
+    margin: auto;
+}
+
+.section_content {
+    background-color: #FFFFFF;
+    border-radius: var(--radius-xs);
+    height: 760px;
+    width: 89%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    @media only screen and (max-width: 550px) {
+        padding: 20px;
+    }
+}
+    
+.section_gallery {
+    margin-bottom: 14px;
+    gap: 42px;
+    display: flex;
+    width: 94%;
+    flex-direction: column;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+    
+.section_gallery-row {
+    gap: 38px;
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+    }
+}
+
+.section_gallery-image-first {
+    margin-bottom: 10px;
+    height: 378px;
+    width: 48%;
+    object-fit: contain;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+    
+.section_gallery-image-second {
+    height:374px;
+    width: 50%;
+    object-fit: contain;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+    
+.section_details {
+    margin-right: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+}
+
+.section_details-image {
+    height: 320px;
+    align-self: center;
+    width: 50%;
+    object-fit: contain;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+section_details-description {
+    margin-top: 10px;
+    gap: 34px;
+    display: flex;
+    width: 36%;
+    flex-direction: column;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+    width: 100%;
+    }
+}
+    
+.section_details-subtitle {
+    width: 100%;
+    line-height: 43px;
+}
+    
+.column_five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.column_three {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: var( -- black_900);
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}
+    
+.portfolio_socials {
+    margin-bottom: 20px;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+}
+    
+.portfolio_socials_facebook {
+    margin-left: 28px;
+    height: 46px;
+}
+
+.portfolio_socials_image {
+    height: 46px;
+    margin-left: 16px;
+    object-fit: cover;
+}
+    
+.portfolio_socials_telegram {
+    height: 46px;
+    margin-left: 16px;
+    object-fit: cover;
+}
+
+.portfolio_socials_mail {
+    height: 46px;
+    margin-left: 16px;
+    object-fit: contain;
+}
+    
+.contact-info {
+    margin-top: -98px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    @media only screen and (max-width: 1050px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+    
+.contact-info_description {
+    color: var( -- white_a700) !important;
+    line-height: 43px;
+}

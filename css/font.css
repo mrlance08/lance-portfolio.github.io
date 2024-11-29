@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Madimi One";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../public/fonts/MadimiOneRegular.ttf");
+}
+
+@font-face {
+    font-family: "Manuale";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../public/fonts/ManualeRegular.ttf");
+}
